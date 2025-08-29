@@ -7,7 +7,7 @@ It processes an input array and returns categorized outputs such as numbers, alp
 
 ## 🚀 Features
 - **Route:** `POST /bfhl`
-- **Hosted on:** [Vercel](https://vercel.com)
+- **Hosted on:** [Vercel]([https://vercel.com](https://bfhl-api-pearl.vercel.app/bfhl))
 - **Codebase:** Public on GitHub  
 
 ### ✅ Core Logic
@@ -38,13 +38,6 @@ It processes an input array and returns categorized outputs such as numbers, alp
 
 
 ## 🧪 Test Cases
-Case	Input	Output Highlights
-Example A	["a","1","334","4","R","$"]	Odd → [1], Even → [334,4], Sum = "339"
-Example B	["2","a","y","4","&","-","*","5","92","b"]	Odd → [5], Even → [2,4,92], Sum = "103"
-Example C	["A","ABcD","DOE"]	Alphabets → [A,ABCD,DOE], Concat = "EoDdCbAa"
-Empty Array	[]	All empty arrays, Sum = "0", Concat = ""
-Invalid Payload	{"wrong_key":["a","1"]}	{ "is_success": false, "message": "Invalid payload: expected { \"data\": [...] }" }
-
 ### Example Request
 ```json
 {
